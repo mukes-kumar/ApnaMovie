@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { FaAngleRight } from "react-icons/fa";
+// import rightAngle from '../assets/rightAngle.svg'
+
 import { FaAngleLeft } from "react-icons/fa";
 
 
@@ -58,6 +60,7 @@ function BannerHome() {
                   </button>
                   <button onClick={handleNext} className='bg-white hover:text-white p-1 rounded-full text-2xl z-10 text-black hover:bg-gradient-to-l from-red-700 to-orange-500 shadow-md transition-all hover:scale-105 '>
                     <FaAngleRight />
+                    
                   </button>
                 </div>
 
