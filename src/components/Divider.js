@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Divider() {
+const Divider = () => {
   return (
-    <div className='bg-neutral-700 p-[0.5px] rounded my-3'></div>
+    <div className='bg-neutral-700 p-[0.5px] rounded-full my-3'>
+      
+    </div>
   )
 }
 
