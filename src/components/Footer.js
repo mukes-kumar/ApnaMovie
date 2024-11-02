@@ -8,7 +8,7 @@ const Footer = () => {
           <Link to="/" >About</Link>
           <Link to="/">Contact</Link>
         </div>
-        <p className='text-sm'>Created By Dynamic Coding with Amit</p>
+        <a className='text-sm' href='https://www.linkedin.com/in/mukesh-prajapati-751340260'>Created by Mukesh Prajapati</a>
     </footer>
   )
 }
