@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Card = ({data,trending,index,media_type }) => {
     const imageURL = useSelector(state => state.movieoData.imageURL)
-
+   
     const mediaType = data.media_type ?? media_type
   return (
     <Link to={"/"+mediaType+"/"+data.id} className='w-full min-w-[230px] max-w-[230px] h-80 overflow-hidden block rounded relative hover:scale-105 transition-all'>
